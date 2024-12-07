@@ -1,0 +1,3 @@
+# Conflicting Mutable Borrows in Rust
+
+This example demonstrates a common error in Rust related to conflicting mutable borrows.  The code attempts to create multiple mutable references to the same variable, which violates Rust's borrowing rules designed to prevent data races.  The solution shows how to refactor the code to avoid this issue using techniques like cloning or using a single mutable reference.
